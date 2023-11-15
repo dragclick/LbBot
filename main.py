@@ -5,11 +5,15 @@ import discord
 import requests
 from discord.ext import commands
 from discord.ext import tasks
+import os
+from dotenv import load_dotenv
 
-from decouple import config
+# Load environment variables from .env file
+load_dotenv()
 
-token = config('token')
-GUILD_ID = #your guild id here
+# Access the token variable
+token = os.getenv('token')
+GUILD_ID = #your guild id
 
 
 
