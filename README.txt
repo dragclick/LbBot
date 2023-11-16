@@ -7,4 +7,11 @@ IF THE HTTP TOKEN IS INVALID (variable token, line 11), you can change the varia
 
 IF THE CODE DOES NOT WORK, YOU CAN CONTACT ME: my Discord is in my github bio, and I respond to all messages.
 
-LINK TO THE GITHUB:
+LINK TO THE GITHUB:https://github.com/dragclick/LbBot
+
+COMMAND LIST:
+
+>addplayer [name] [discord tag]    example: >addplayer dragclik @dragclik
+>listplayers
+>rank [name]
+>delplayer [name]
