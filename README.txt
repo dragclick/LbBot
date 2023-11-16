@@ -1,5 +1,5 @@
 IMPORTANT
-To launch the leaderboard bot, you must first replace the values 'your discord token' (run.py) with the token of your own Discord bot. Then, you need to replace the value #your guild id here with your guild ID (main.py, line 12).
+To launch the leaderboard bot, you must first replace the values 'your discord token' (run.py) with the token of your own Discord bot. Then, you need to replace the value #your guild id here with your guild ID (main.py, line 12) and the value channel_id (line 85).
 For modifying the code, it is recommended to use PyCharm, but you can still use VSCode or another editor.
 
 TO MODIFY THE MODE (normal, short, inclined), the variable "mode" is located at lines 45 and 154. I recommend visiting the mcplayhd API page for more information.
