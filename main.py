@@ -269,3 +269,5 @@ async def rank(ctx, name: str):
         await ctx.send(f'{name} is ranked **`#{rank}`** with a time of **`{time}`** seconds.')
     else:
         await ctx.send(f'{name} does not exist in the list.')
+
+bot.run('you token')
